@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+ int a;
+  cout << "a=";
+  cin >> a;
+ a%10==(a/10)%10 ? cout << "da" : cout <<"net";
+ return 0;
+}
