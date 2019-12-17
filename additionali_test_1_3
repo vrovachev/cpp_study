@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float a;
+cout << "a=";
+cin >> a;
+if (a==1)
+		cout << "Big";
+else if (a==2)
+	cout << "Ukazatel";
+else if (a==3)
+	cout <<"Midl";
+else if (a==4)
+	cout << "Noname";
+else if (a==5)
+	cout << "Mizinec";
+else
+	cout << "Invalid";
+return 0;
+}
